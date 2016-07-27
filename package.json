@@ -1,0 +1,31 @@
+{
+  "name": "node-deep-replace",
+  "version": "0.1.0",
+  "description": "This library helps you to execute a replacement function in every string element of an object, at any deepness.",
+  "main": "deepReplace.js",
+  "scripts": {
+    "test": "mocha deepReplace.unit.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joviwap/node-deep-replace.git"
+  },
+  "keywords": [
+    "deep",
+    "replace",
+    "string"
+  ],
+  "author": "José Vicente Sogorb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joviwap/node-deep-replace/issues"
+  },
+  "homepage": "https://github.com/joviwap/node-deep-replace#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "lodash": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
